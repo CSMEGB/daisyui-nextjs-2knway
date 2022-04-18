@@ -57,7 +57,7 @@ export default class NavBar extends React.Component {
                 </ul>
               </li>
               <li>
-                <a>Item 3</a>
+                <a>About</a>
               </li>
             </ul>
           </div>
@@ -66,11 +66,14 @@ export default class NavBar extends React.Component {
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
             <li>
-              <a>Item 1</a>
+              <a>Home</a>
+            </li>
+            <li>
+              <a>Latest</a>
             </li>
             <li tabindex="0">
               <a>
-                Parent
+                Content
                 <svg
                   class="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
@@ -83,15 +86,21 @@ export default class NavBar extends React.Component {
               </a>
               <ul class="p-2">
                 <li>
-                  <a>Submenu 1</a>
+                  <a>Books</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Video</a>
+                </li>
+                <li>
+                  <a>Audio</a>
                 </li>
               </ul>
             </li>
             <li>
-              <a>Item 3</a>
+              <a>About</a>
+            </li>
+            <li>
+              <a></a>
             </li>
           </ul>
         </div>

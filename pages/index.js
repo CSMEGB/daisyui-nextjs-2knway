@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import NavBar from './components/NavBar.js';
 import Testimonial from './components/Testimonial.js';
-import Book from './components/Book.js';
+import BookList from './components/BookList.js';
 export default function Home() {
   return (
     <div>
@@ -9,8 +9,9 @@ export default function Home() {
         <title>Create Next App</title>
       </Head>
       <NavBar></NavBar>
+
+      <BookList></BookList>
       <Testimonial></Testimonial>
-      <Book></Book>
     </div>
   );
 }
