@@ -19,26 +19,24 @@ export default class Testimonial extends React.Component {
               alt=""
             />
             <div class="relative">
-              <span class="inline-block py-px px-2 mb-4 text-xs leading-5 text-red-500 bg-red-100 font-medium uppercase rounded-9xl">
-                Quotes
-              </span>
+              <span class="inline-block py-px px-2 mb-4 text-xs leading-5 text-red-500 bg-red-100 font-medium uppercase rounded-9xl"></span>
               <h2 class="text-2xl md:text-5xl font-semibold tracking-tighter">
-                The best solution for anyone who wants to work a flexible
-                schedule but still earn a full-time income.
+                തിരുനാളുകളുടെ തിരുനാളായ ഉയർപ്പിൻറെ മംഗളങ്ങൾ ഏവർക്കും
+                ആശംസിക്കുന്നു.
               </h2>
             </div>
           </div>
           <div class="text-center mb-8">
             <img
               class="w-24 h-24 mx-auto mb-6 rounded-full"
-              src="flex-ui-assets/images/testimonials/avatar1.png"
+              src="http://eparchyofgreatbritain.org/wp-content/uploads/2021/05/Bishop-Srampikkal-450-x-600.png"
               alt=""
             />
             <h3 class="mb-2 text-xl md:text-2xl font-semibold">
-              Darren Dunlap
+              Mar Joseph Srampickal
             </h3>
             <span class="text-lg text-coolGray-500 font-medium">
-              CEO &amp; Founder at Flex.co
+              Bishop of the Syro-Malabar Eparchy of Great Britain
             </span>
           </div>
           <div class="text-center">

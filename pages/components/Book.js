@@ -9,7 +9,7 @@ export default class Book extends React.Component {
     console.log(this.props);
     return (
       <div class="">
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card w-96 bg-base-300 shadow-xl">
           {this.props.id}
           <figure>
             {
